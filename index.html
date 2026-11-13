@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A Little Christmas Letter</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 32px 16px;
+      font-family: Georgia, "Times New Roman", serif;
+      color: #26352c;
+      background: linear-gradient(135deg, #0b3d2e, #165b45 55%, #8b1e2d);
+    }
+    .letter {
+      max-width: 820px;
+      margin: 0 auto;
+      padding: 34px;
+      background: #fffaf0;
+      border: 8px double #b58a3a;
+      border-radius: 18px;
+      box-shadow: 0 15px 40px #0005;
+    }
+    .top { text-align: center; }
+    h1 { color: #a32232; font-size: clamp(2.1rem, 6vw, 3.7rem); margin: 8px 0; }
+    .subtitle { color: #38634b; font-size: 1.1rem; }
+    .decor { font-size: 1.8rem; letter-spacing: 8px; }
+    .hero {
+      width: 100%;
+      max-height: 310px;
+      object-fit: cover;
+      border-radius: 12px;
+      margin: 22px 0;
+      border: 4px solid #d6b66c;
+    }
+    p { font-size: 1.12rem; line-height: 1.8; }
+    .gif-wrap { text-align: center; margin: 24px 0; }
+    .gif-wrap img { width: min(100%, 330px); border-radius: 12px; }
+    .signoff { color: #a32232; font-weight: bold; font-size: 1.25rem; }
+    footer { text-align: center; color: #55715c; margin-top: 26px; font-size: .95rem; }
+    @media (max-width: 520px) { .letter { padding: 22px 18px; } }
+  </style>
+</head>
+<body>
+  <main class="letter">
+    <header class="top">
+      <div class="decor">✦ ❄ ✦ 🎄 ✦ ❄ ✦</div>
+      <h1>Merry Christmas!</h1>
+      <div class="subtitle">A little letter full of warmth and holiday wishes</div>
+    </header>
+
+    <img class="hero"
+      src="https://images.unsplash.com/photo-1512389142860-9c449e58a543?auto=format&fit=crop&w=1400&q=85"
+      alt="A beautifully decorated Christmas tree with glowing lights">
+
+    <p>Dear family and friends,</p>
+
+    <p>
+      Christmas is a special time to slow down, appreciate the people around us,
+      and remember the little things that make life wonderful. I hope this season
+      brings you peaceful moments, joyful memories, and plenty of reasons to smile.
+    </p>
+
+    <p>
+      Thank you for being part of my year. Whether we celebrate together or from
+      far away, I am sending you warm wishes, happiness, and good things for the
+      year ahead. May your home be filled with laughter, kindness, and the magic
+      of the holidays.
+    </p>
+
+    <div class="gif-wrap">
+      <img
+        src="https://media.giphy.com/media/3o6fJ1UDfEBc9gW0g0/giphy.gif"
+        alt="Animated Christmas greeting">
+      <p><strong>Wishing you a season as bright as the Christmas lights!</strong></p>
+    </div>
+
+    <p class="signoff">With love and best wishes,<br>Margaret-Mary</p>
+
+    <footer>❄ May your Christmas be merry and your New Year be bright. ❄</footer>
+  </main>
+</body>
+</html>
